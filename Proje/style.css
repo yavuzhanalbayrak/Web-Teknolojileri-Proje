@@ -104,3 +104,32 @@ main{
    
     border-radius: 10px;
 }
+bos{
+    color:white;
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+
+}
+.resimler{
+    max-height: 300px;
+    border-style:double;
+    border-color: rgb(49, 49, 49);
+    border-width: 7px;
+    
+    
+    
+}
+.samsun{
+    height: 350px;
+    width:fit-content;
+    margin:auto;
+    border-radius: 10px;
+    box-shadow:0 0 5px 5px rgb(133, 133, 133);
+    
+    
+}
+.samsun:hover{
+    opacity: 0.8;
+}
