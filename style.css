@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    
+}
+#body {
+   
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: silver;
+}
+#bar{
+    height:65px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    font-size: 20px;   
+}
+#baslik{
+    
+    font-family: 'Source Serif Pro', serif;
+    float:left;
+    color: white;
+    text-decoration: none;
+    
+    font-size: 40px;
+    padding-top: 3px;
+    
+   
+}
+#baslik:hover{
+    opacity: 0.8;
+}
+#baslikResmi{
+   
+    margin-bottom:7px ;
+    width: 40px;
+    height: 40px;
+}
+#login{
+    letter-spacing: 2px;
+    float:right;
+    margin-top:12px;
+    margin-right:30px ;
+    color: white;
+    text-decoration: none;
+}
+#login:hover{
+    opacity: 0.8;
+}
+#sayfa{
+    
+    background-color: silver;
+    margin: auto;
+    padding: auto;
+   
+    
+}
+section{
+    box-shadow:0 0 5px 5px rgb(133, 133, 133);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 60px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    
+    
+}
+
+.menu{
+    
+    border-spacing: 1px;
+    letter-spacing: 2px;
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+    border-color: black;
+    border-right: 1.5px;
+    border-right-style: solid;
+    padding-top: 2px;
+   
+    
+}
+.menu:hover{
+    
+    
+    border-color: rgb(0, 0, 0);
+}
+#iletisim{
+    border-right-style: none;
+}
+main{
+    box-shadow:0 0 5px 5px rgb(133, 133, 133);
+    background-color: white;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    
+}
+#girisEkrani{
+   
+    border-radius: 10px;
+}
+bos{
+    color:white;
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+
+}
+.resimler{
+    max-height: 300px;
+    border-style:double;
+    border-color: rgb(49, 49, 49);
+    border-width: 7px;
+    
+    
+    
+}
+.samsun{
+    height: 350px;
+    width:fit-content;
+    margin:auto;
+    border-radius: 10px;
+    box-shadow:0 0 5px 5px rgb(133, 133, 133);
+    
+    
+}
+.samsun:hover{
+    opacity: 0.8;
+}
+.geri{
+    font-size: larger;
+    font-style: bold;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
