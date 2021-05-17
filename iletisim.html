@@ -69,7 +69,7 @@
                 </div>
                 <div style="border-top:solid; border-bottom:solid;" class="row col-3 m-auto mt-2">
                     <label for="cinsiyet"><b>Cinsiyetiniz:</b></label>
-                    <div><input name="cinsiyet" type="radio" value="erkek"> Erkek</div>
+                    <div><input name="cinsiyet" type="radio" value="erkek" checked> Erkek</div>
                     <div><input name="cinsiyet" type="radio" value="kadın"> Kadın</div>
                 </div>  
                 <div class="row col-3 m-auto mt-2">
@@ -85,16 +85,17 @@
                     </select>
                 </div> 
                 <div style="border-top:solid; border-bottom:solid;"  class="row col-3 m-auto mt-2">
-                    <div><input name="cbMail" type="checkbox">E-Mail</div>
-                    <div><input name="cbTelefon" type="checkbox">Telefon</div>
+                    <label for="cinsiyet"><b>Size Nasıl Ulaşalım?</b></label>
+                    <div><input name="cbMail" type="checkbox" value="E-Mail">E-Mail</div>
+                    <div><input name="cbTelefon" type="checkbox" value="Telefon">Telefon</div>
                 </div>
                 <div class="row col-3 m-auto mt-2 "> 
                     <label for="aciklama"><b>Açıklama Satırı:</b></label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="aciklama" ></textarea>
                 </div>
                 <div class="row col-3 m-auto mt-2 mb-5 ">
                     <div class="col-12"><input class="btn btn-primary mb-3" type="submit" name="gonder" value="Gönder"> </div>
-                    <div class="col-12"><button class="btn btn-primary mb-3">Temizle</button> </div>
+                    <div class="col-12"><a href="iletisim.html" class="btn btn-primary mb-3">Temizle</a>
                     
                 </div>
                
