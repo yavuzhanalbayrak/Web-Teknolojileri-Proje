@@ -21,17 +21,18 @@
 </head>
 <body id="body">
     
-    <div id="bar" class="row bg-dark">
+    <nav id="bar" class="row bg-dark">
 
        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12" >
             <a id="baslik"  href="anasayfa.html";>
             <img id="baslikResmi" src="resim/Ekran Alıntısı.png" alt=""> | SAMSUN</a>
-        </div>
+            </nav>
        
     </div>
 
     <form  method="POST" action="bilgi.php"  class="row">
         <div id="girisEkrani" class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 m-auto bg-dark pt-2 mt-5">
+          <header style="font-size: 30px; color:white;" class="mb-2 text-center" >Giriş Ekranı</header>
             <div class="form-floating mb-3">
                 <input type="email" class="form-control" name="email" placeholder="name@example.com" required>
                 <label for="floatingInput">Email address</label>
@@ -40,8 +41,8 @@
                 <input type="password" class="form-control" name="password" placeholder="Password" required>
                 <label for="floatingPassword">Password</label>
               </div>
-              <div class="col-12 m-2">
-                <button class="btn btn-primary" type="submit">Giriş Yap</button>
+              <div class="col-12 m-3">
+                <button class=" btn btn-primary" type="submit">Giriş Yap</button>
               </div>
         </div>
        
