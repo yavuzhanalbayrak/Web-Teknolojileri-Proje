@@ -20,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap" rel="stylesheet">
     
     
-    <title>ÖZ GEÇMİŞ</title>
+    <title>İLGİ ALANLARIM</title>
 </head>
 <body id="body">
     
@@ -51,9 +51,15 @@
             
             <section>
                 <main class="row col-10 m-auto mt-4">
-                    <header class="col-5 text-center mt-3">
+                    <header class="col-12 text-left mt-3 m-2">
                         <p style="font-size: 50px;font-weight: 100;">İlgi Alanlarım</p>
                     </header>
+                    
+                    <div class="api col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-8 col-11">
+                        <div id="yazi"></div>
+                        <div id="name"></div>
+                    </div>
+                    
                     <p>
                         <div  >
                 
@@ -175,6 +181,26 @@
                 
                     </p>
                 </main>
+                <script>
+ fetch("https://quotes15.p.rapidapi.com/quotes/random/", {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-key": "b9b46cbb2emsh5ad554dd9baa7d7p11f4aajsn52913a9be6d9",
+		"x-rapidapi-host": "quotes15.p.rapidapi.com"
+	}
+})
+.then(response => response.json())
+.then(response => {
+
+	console.log(response);
+    
+    document.getElementById("yazi").innerHTML=response.content;
+    document.getElementById("name").innerHTML="-"+response.originator.name;
+})
+.catch(err => {
+	console.error(err);
+});
+                </script>
             </section>
             <footer class="py-4 bg-dark text-white text-center">
                 Web-Teknolojileri-Projesi © Yavuzhan ALBAYRAK 2021
