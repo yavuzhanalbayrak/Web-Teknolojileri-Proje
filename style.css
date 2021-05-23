@@ -10,7 +10,7 @@
     background-color: silver;
 }
 #bar{
-    height:65px;
+    height:70px;
     color: white;
     position: sticky;
     top: 0;
@@ -149,4 +149,8 @@ thead {
     border-style: solid;
     border-width: 0.5px;
     border-radius: 5px;
+}
+li{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
 }
